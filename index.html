@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+
+            <div class="section">
+                <h3 class="heading">HOME</h3>
+                <div class="box">
+                    <p class="box-p" id="score-home">0</p>
+                </div>
+                <div class="btn">
+                    <button class="num" onclick="oneH()">+1</button>
+                    <button class="num" onclick="twoH()">+2</button>
+                    <button class="num" onclick="threeH()">+3</button>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3 class="heading">GUEST</h3>
+                <div class="box">
+                    <p class="box-p" id="score-guest">0</p>
+                </div>
+                <div class="btn">
+                    <button class="num" onclick="oneG()">+1</button>
+                    <button class="num" onclick="twoG()">+2</button>
+                    <button class="num" onclick="threeG()">+3</button>
+                </div>
+            </div>
+
+        </div>
+
+        <H1 class="heading" id="win">Home is winning</H1>
+        <button id="new-game" onclick="restart()">NEW GAME</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
